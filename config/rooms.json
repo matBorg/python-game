@@ -39,5 +39,17 @@
         "name": "Camera da letto",
         "description": "",
         "color": "white"
+    },
+
+    "7": {
+        "name": "Seminterrato",
+        "description": "",
+        "color": "white"
+    },
+
+    "8": {
+        "name": "Soffitta",
+        "description": "",
+        "color": "white"
     }
 }

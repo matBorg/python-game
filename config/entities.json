@@ -1,61 +1,4 @@
 {
-    "O": {
-        "name": "coccinella",
-        "color": "red",
-        "description": "che bella!",
-        "interactions":  {
-            "no-item": {
-                "message": "la schiacci",
-                "transform": " "
-            }
-        }
-    },
-    "H": {
-        "name": "idrogeno",
-        "description": "e' dell'idrogeno, non chiedermi come fai a percepirlo...",
-        "color": "magenta",
-        "interactions": {
-            "no-item": {
-                "message": "ma scusa... cosa ti aspetti di fare esattamente con l'idrogeno..."
-            },
-            "L": {
-                "message": "opppero'! hai condito le lasagne con l'idrogeno sprigionando una reazione unicornosa",
-                "transform": "U"
-            }
-        }
-    },
-    "L": {
-        "name": "lasagne",
-        "description": "sembrano appetitose",
-        "color": "green",
-        "interactions": {
-            "no-item": {
-                "message": "fa sempre comodo avere delle lasagne in tasca",
-                "transform": " ",
-                "pickup": true
-            }
-        }
-    },
-    "B": {
-        "name": "bomba",
-        "description": "e' una bomba pronta a detonare, devo sbrigarmi a disinnescarla!",
-        "color": "red",
-        "interactions": {
-            "no-item": {
-                "message": "biiiip biiiiiiip biiiiiiiiiiiip",
-                "game_over": "la bomba esplode demolendo l'intera stanza"
-            },
-
-            "V": {
-                "message": "tagli con attenzione un filo che penzola da un lato dell'ordigno...",
-                "win": "hai disinnescato la bomba con successo, sei sano e salvo!"
-            },
-
-            "L": {
-                "message": "sei un pervertito"
-            }
-        }
-    }, 
 
     "P": {
         "name": "pianta",
@@ -162,6 +105,30 @@
             "no-item": {
                 "message": "si apre",
                 "move_to_room": 6
+            }
+        }
+    },
+
+    "7": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 7
+            }
+        }
+    },
+
+    "8": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 8
             }
         }
     }
