@@ -55,26 +55,30 @@
                 "message": "sei un pervertito"
             }
         }
-    },
-    "1": {
-        "name": "porta",
-        "description": "e' una porta",
-        "color": "blue",
+    }, 
+
+    "P": {
+        "name": "pianta",
+        "description": "questa pianta non viene annaffiata da molto tempo",
+        "color": "green",
         "interactions": {
             "no-item": {
-                "message": "si apre",
-                "move_to_room": 1
+                "message": "spostando il vaso noti qualcosa di interessante",
+                "transform": "K"
             }
         }
     },
-    "2": {
-        "name": "porta",
-        "description": "e' una porta",
-        "color": "blue",
+
+
+    "K": {
+        "name": "chiave",
+        "description": "e' una piccola chiave",
+        "color": "yellow",
         "interactions": {
             "no-item": {
-                "message": "si apre",
-                "move_to_room": 2
+                "message": "la raccogli",
+                "transform": " ",
+                "pickup": true
             }
         }
     },
@@ -89,124 +93,76 @@
             }
         }
     },
-    "Q": {
-        "name": "quadro",
-        "description": "e' proprio un bel quadro",
+
+    "1": {
+        "name": "porta",
+        "description": "e' una porta",
         "color": "blue",
         "interactions": {
             "no-item": {
-                "message": "spostando il quadro ti accorgi che dietro nasconte una cassaforte",
-                "transform": "F"
+                "message": "si apre",
+                "move_to_room": 1
             }
         }
     },
 
-    "F": {
-        "name": "cassaforte",
-        "description": "e' una cassaforte chiusa",
-        "color": "yellow",
-        "interactions": {
-            "K": {
-                "message": "la chiave entra perfettamente nella serratura; la giri",
-                "transform": "V",
-                "remove_from_inventory": true
-            }
-        }
-    },
-
-    "V": {
-        "name": "Tenaglie",
-        "description": "sono delle tenaglie piuttosto affilate",
-        "color": "green",
-        "interactions": {
-            "no-item": {
-                "message": "le raccogli",
-                "transform": " ",
-                "pickup": true
-            }
-        }
-    },
-
-    "P": {
-        "name": "pianta",
-        "description": "questa pianta non viene annaffiata da molto tempo",
-        "color": "green",
-        "interactions": {
-            "no-item": {
-                "message": "spostando il vaso noti qualcosa di interessante",
-                "transform": "K"
-            }
-        }
-    },
-
-    "C": {
-        "name": "candelabro",
-        "description": "un vecchio candelabro arrugginito",
-        "color": "yellow",
-        "interactions": {
-            "V": {
-                "message": "mmm, ha proprio senso... abra cadabra!",
-                "transform": " ",
-                "pickup": true
-            },
-            "C": {
-                "message": "mindfuckkkkk!!!!",
-                "transform": "U"
-            }
-        }
-    },
-
-    "U": {
-        "name": "unicorno",
-        "description": "che splendido esemplare fatato!",
+    "2": {
+        "name": "porta",
+        "description": "e' una porta",
         "color": "blue",
         "interactions": {
             "no-item": {
-                "message": "che splendida sensazione",
-                "win": "voli via contento e vivrai una vita fatta di soddisfazioni cucciolose"
-            },
-
-            "L": {
-                "message": "quello che una volta  era un leggiadro  unicorno ora e' un unicorno obeso! non volera' mai piu'",
-                "game_over": "peccato!"
+                "message": "si apre",
+                "move_to_room": 2
             }
         }
     },
 
-    "K": {
-        "name": "chiave",
-        "description": "e' una piccola chiave",
-        "color": "yellow",
+    "3": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
         "interactions": {
             "no-item": {
-                "message": "la raccogli",
-                "transform": " ",
-                "pickup": true
+                "message": "si apre",
+                "move_to_room": 3
             }
         }
     },
 
-    "+": {
-        "name": "interruttore",
-        "description": "e' un interruttore posizionato su ACCESO",
-        "color": "black",
+    "4": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
         "interactions": {
-            "no-item": { 
-                "message": "lo premi",
-                "transform": "-"
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 4
             }
         }
     },
 
-    "-": {
-        "name": "interruttore",
-        "description": "e' un interruttore posizionato su SPENTO",
-        "color": "black",
+    "5": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
         "interactions": {
-            "no-item": { 
-                "message": "lo premi",
-                "transform": "+"
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 5
             }
-        }  
+        }
+    },
+
+    "6": {
+        "name": "porta",
+        "description": "e' una porta",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si apre",
+                "move_to_room": 6
+            }
+        }
     }
 }

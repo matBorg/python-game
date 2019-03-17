@@ -1,19 +1,43 @@
 {
     "0": {
-        "name": "Sala",
-        "description": "Questo luogo e' abbastanza accogliente nonostante il senso di claustrofobia che ti trasmette",
+        "name": "Ingresso",
+        "description": "Questo ingresso e' molto spazioso, c'e' un brutto odore che sembra provenire dalla cucina",
         "color": "white"
     },
 
     "1": {
         "name": "Cucina",
-        "description": "E' tutto molto disordinato. Sembra che nessuno abbia riordinato da molto tempo",
+        "description": "Una cucina di modeste dimensioni, a giudicare dalla puzza di bruciato il padrone di casa non e' uno chef stellato",
         "color": "red"
     },
     
     "2": {
-        "name": "Sogno",
-        "description": "sei evidentemente in un sogno",
+        "name": "Salotto",
+        "description": "",
+        "color": "white"
+    },
+
+    "3": {
+        "name": "Camera da letto matrimoniale",
+        "description": "",
+        "color": "white"
+    },
+
+    "4": {
+        "name": "Ripostiglio",
+        "description": "",
+        "color": "white"
+    },
+
+    "5": {
+        "name": "Bagno",
+        "description": "",
+        "color": "white"
+    },
+
+    "6": {
+        "name": "Camera da letto",
+        "description": "",
         "color": "white"
     }
 }
