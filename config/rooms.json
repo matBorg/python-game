@@ -18,10 +18,11 @@
         "interactions": {
             "no-item": {
                 "message": "non puoi entrare senza la chiave",
-                "tranform": "2"
+                "tranform": "/"
               },
             "K":{
-                "message": "Sei fortunato! È la chiave giusta"
+                "message": "Sei fortunato! È la chiave giusta",
+                "tranform": "2"
               }
           }
     },

@@ -3,7 +3,7 @@
     "P": {
         "name": "pianta",
         "description": "questa pianta non viene annaffiata da molto tempo",
-        "color": "green",
+        "color": "yellow",
         "interactions": {
             "no-item": {
                 "message": "spostando il vaso noti qualcosa di interessante",
