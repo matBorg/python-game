@@ -37,12 +37,9 @@ class Bg:
     red='\033[41m'
     green='\033[42m'
     yellow='\033[43m'
-    lightgrey='\033[37m'
     blue='\033[44m'
     magenta='\033[45m'
     cyan='\033[46m'
-    pink='\033[95m'
-    purple='\033[35m'
     white='\033[47m'
 
 
@@ -145,7 +142,7 @@ class Mobile(Entity):
 
 class Player(Mobile):
     def __init__(self, room, x, y):
-        Mobile.__init__(self, room, x, y, "G", Bg.magenta)
+        Mobile.__init__(self, room, x, y, "P", Bg.blue)
         self.inventory = {}
 
     def draw_inventory(self):
@@ -298,6 +295,8 @@ class Room:
                 else:
                     print(self.color + "   " + Bg.rs, end="")
             print()
+
+
 g = Game()
 
 while True:
