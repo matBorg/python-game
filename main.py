@@ -175,6 +175,7 @@ class Player(Mobile):
 class Wall(Entity):
     def __init__(self, room, x, y):
         Entity.__init__(self, room, x, y, " ", Bg.black)
+
 class Game:
     config = {}
     for key in ("entities", "rooms", "game"):
