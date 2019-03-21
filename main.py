@@ -145,7 +145,7 @@ class Mobile(Entity):
 
 class Player(Mobile):
     def __init__(self, room, x, y):
-        Mobile.__init__(self, room, x, y, "P", Bg.magenta)
+        Mobile.__init__(self, room, x, y, "G", Bg.magenta)
         self.inventory = {}
 
     def draw_inventory(self):
@@ -298,8 +298,6 @@ class Room:
                 else:
                     print(self.color + "   " + Bg.rs, end="")
             print()
-
-
 g = Game()
 
 while True:

@@ -15,16 +15,6 @@
         "name": "Salotto",
         "description": "Un gran salotto",
         "color": "white",
-        "interactions": {
-            "no-item": {
-                "message": "non puoi entrare senza la chiave",
-                "tranform": "/"
-              },
-            "K":{
-                "message": "Sei fortunato! È la chiave giusta",
-                "tranform": "2"
-              }
-          }
     },
 
     "3": {
