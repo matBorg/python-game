@@ -1,3 +1,4 @@
+
 import json
 from os import system
 from random import choice
@@ -35,13 +36,14 @@ class Bg:
     rs="\033[00m"
     black='\033[40m'
     red='\033[41m'
+    pink='\033[95m'
     orange='\033[33m'
     green='\033[42m'
     yellow='\033[43m'
     blue='\033[44m'
     magenta='\033[45m'
-    cyan='\033[46m'
     lightgrey='\033[37m'
+    cyan='\033[46m'
     white='\033[47m'
 
 
@@ -175,6 +177,7 @@ class Player(Mobile):
 class Wall(Entity):
     def __init__(self, room, x, y):
         Entity.__init__(self, room, x, y, " ", Bg.black)
+
 
 class Game:
     config = {}
