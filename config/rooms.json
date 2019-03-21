@@ -8,9 +8,9 @@
     "1": {
         "name": "Cucina",
         "description": "Una cucina di modeste dimensioni, a giudicare dalla puzza di bruciato il padrone di casa non e' uno chef stellato",
-        "color": "red"
+        "color": "green"
     },
-    
+
     "2": {
         "name": "Salotto",
         "description": "",
@@ -20,7 +20,7 @@
     "3": {
         "name": "Camera da letto matrimoniale",
         "description": "",
-        "color": "white"
+        "color": "red"
     },
 
     "4": {
