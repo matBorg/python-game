@@ -42,6 +42,12 @@
       }
     },
 
+    "◼": {
+      "name": "tavolo",
+      "description": "dei semplici tavoli usati dai commensali...",
+      "color": "lightgrey"
+    },
+
 
     "K": {
         "name": "chiave",
