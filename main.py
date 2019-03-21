@@ -144,7 +144,7 @@ class Mobile(Entity):
 
 class Player(Mobile):
     def __init__(self, room, x, y):
-        Mobile.__init__(self, room, x, y, "P", Bg.blue)
+        Mobile.__init__(self, room, x, y, "P", Bg.magenta)
         self.inventory = {}
 
     def draw_inventory(self):
