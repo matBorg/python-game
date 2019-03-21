@@ -13,15 +13,17 @@
 
     "2": {
         "name": "Salotto",
-        "description": "",
+        "description": "Un gran salotto",
         "color": "white",
         "interactions": {
-          "no-item": {
-            "message": "non puoi entrare senza la chiave",
-            "color": "lightgrey"
-
+            "no-item": {
+                "message": "non puoi entrare senza la chiave",
+                "tranform": "2"
+              },
+            "K":{
+                "message": "Sei fortunato! È la chiave giusta"
+              }
           }
-        }
     },
 
     "3": {
