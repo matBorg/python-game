@@ -14,7 +14,14 @@
     "2": {
         "name": "Salotto",
         "description": "",
-        "color": "white"
+        "color": "white",
+        "interactions": {
+          "no-item": {
+            "message": "non puoi entrare senza la chiave",
+            "color": "lightgrey"
+
+          }
+        }
     },
 
     "3": {
