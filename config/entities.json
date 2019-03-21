@@ -27,8 +27,8 @@
 
     "S": {
       "name": "blocco di pietra",
-      "description": "un blocco di pietra... può essere distrutto",
-      "color": "gray",
+      "description": "può essere distrutto",
+      "color": "black",
       "interactions": {
           "no-item": {
               "message": "è un po' duro da rompere con le mani"
@@ -46,7 +46,7 @@
     "K": {
         "name": "chiave",
         "description": "e' una piccola chiave",
-        "color": "yellow",
+        "color": "cyan",
         "interactions": {
             "no-item": {
                 "message": "la raccogli",

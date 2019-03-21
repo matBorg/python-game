@@ -13,7 +13,7 @@ WRONG_INTERACTION_RESPONSES = [
 ]
 IS_WINDOWS = sys.platform.lower() == "win32"
 
-class Fg: 
+class Fg:
     rs="\033[00m"
     black='\033[30m'
     red='\033[31m'
@@ -31,7 +31,7 @@ class Fg:
     pink='\033[95m'
     lightcyan='\033[96m'
 
-class Bg: 
+class Bg:
     rs="\033[00m"
     black='\033[40m'
     red='\033[41m'
@@ -40,6 +40,8 @@ class Bg:
     blue='\033[44m'
     magenta='\033[45m'
     cyan='\033[46m'
+    pink='\033[95m'
+    purple='\033[35m'
     white='\033[47m'
 
 
