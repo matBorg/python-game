@@ -5,24 +5,12 @@
       "color":"purple",
       "interactions":{
       "no-item":{
-          "message": "Evaso il killer più ricercato d'Europa! Scomparso l'avvocato Azzeccagarbugli.",
+          "message": "Evaso il killer più ricercato d'Europa! Scomparso il giudice Bernardi che lo condannò all'ergastolo.",
           "tranform": " "
       }
     }
   },
 
-  "R": {
-      "name": "Ruspa",
-      "description": "La ruspa di Salvini",
-      "color": "cyan",
-      "interactions": {
-          "no-item": {
-              "message": "Viva la ruspaaa!!!",
-              "transform": " ",
-              "pickup": true
-          }
-      }
-  },
     "P": {
         "name": "Pianta",
         "description": "questa pianta non viene annaffiata da molto tempo",
@@ -56,7 +44,7 @@
           "no-item": {
               "message": "è un po' duro da rompere con le mani"
           },
-          "R":{
+          "M":{
             "message": "Sembra funzionare! Stai spaccando tutto come non mai 🦄 ",
             "message": "hai ottenuto 2 pezzi di pietra focaia!",
             "transform": " ",
@@ -68,14 +56,8 @@
     "H": {
       "name": "tavolo",
       "description": "dei semplici tavoli usati dai commensali...",
-      "color": "white",
-      "interactions": {
-          "R": {
-              "message": "Distruggiamo questi tavoli",
-              "transform": " "
-          }
-      }
-  },
+      "color": "white"
+    },
 
 
     "K": {
