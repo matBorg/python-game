@@ -1,13 +1,37 @@
 {
+  "X": {
+    "name": "lucchetto",
+    "description": "",
+    "color": "black",
+    "interactions": {
+        "no-item": {
+          "message": "Non credo si apra con le mani ☠️ "
+        },
+        "K": {
+          "message": "È la chiave giusta!",
+          "transform": " "
+        }
+    }
+  },
   "C": {
     "name": "Candela profumata",
-    "description": "Una candela con un aroma di vaniglia",
+    "description": "una candela con un aroma di vaniglia",
     "color": "yellow",
     "interactions": {
         "no-item": {
           "message": "Fa sempre comodo avere con se una candela profumata",
-          "tranform": " ",
+          "transform": " ",
           "pickup": true
+        }
+    }
+  },
+  "U": {
+    "name": "Fornelli",
+    "description":"",
+    "color": "black",
+    "interactions":{
+        "C": {
+          "message": "Hai acceso la candela"
         }
     }
   },
@@ -57,9 +81,8 @@
               "message": "è un po' duro da rompere con le mani"
           },
           "M":{
-            "message": "Sembra funzionare! Stai spaccando tutto come non mai 🦄 ",
-            "message": "hai ottenuto 2 pezzi di pietra focaia!",
-            "transform": " ",
+            "message": "Sembra funzionare! Stai spaccando tutto come non mai 🦄 !",
+            "transform": "K",
             "pickup": true
           }
       }
