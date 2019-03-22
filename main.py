@@ -4,18 +4,6 @@ from os import system
 from random import choice
 import sys
 
-#########
-print()
-print("                                     The Killer's apt!")
-print()
-print()
-print("                                 Nel 2008 hai condannato all'ergastolo il noto killer ")
-print("                                 nomeKiller, da allora hai come il presentimento che te")
-print("                                 te la fara pagare cara!")
-print("                                 Buona fortuna per la tua avventura, o meglio")
-print("                                 buona fortuna a fuggire diciamo ...")
-#########
-
 WRONG_INTERACTION_RESPONSES = [
     "non succede nulla",
     "non funziona",

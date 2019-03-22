@@ -1,4 +1,52 @@
 {
+"E": {
+    "name": "Uscita",
+    "description": "unica via per l'uscita! Servono 3 chiavi per aprire la porta",
+    "color": "blue"
+},
+
+  "@":{
+    "name": "Quadro",
+    "description": "",
+    "color": "pink",
+    "interactions": {
+      "no-item": {
+        "message": "Dietro quel quadro c'è qualcosa !!!",
+        "transform": "K"
+      }
+    }
+  },
+  "%":{
+    "name": "Quadro",
+    "description": "",
+    "color": "pink",
+    "interactions": {
+      "no-item": {
+        "message": "Dietro quel quadro c'è qualcosa !!!",
+        "transform": "K"
+      }
+    }
+  },
+  "|":{
+    "name": "Quadro",
+    "description": "",
+    "color": "pink"
+  },
+  "Z":{
+    "name": "Porta blindata",
+    "description": "",
+    "color": "purple",
+    "interactions": {
+      "no-item": {
+        "message": "Non si apre senza chiavi! ☠️☠️☠️ "
+      },
+      "U": {
+        "message": "Sei fortunato! La porta si apre con successo!",
+        "transform": " "
+      }
+    }
+
+  },
   "X": {
     "name": "lucchetto",
     "description": "",
@@ -8,6 +56,34 @@
           "message": "Non credo si apra con le mani ☠️ "
         },
         "K": {
+          "message": "È la chiave giusta!",
+          "transform": " "
+        }
+    }
+  },
+  "/": {
+    "name": "lucchetto",
+    "description": "",
+    "color": "black",
+    "interactions": {
+        "no-item": {
+          "message": "Non credo si apra con le mani ☠️ "
+        },
+        "V": {
+          "message": "È la chiave giusta!",
+          "transform": " "
+        }
+    }
+  },
+  "?": {
+    "name": "lucchetto",
+    "description": "",
+    "color": "black",
+    "interactions": {
+        "no-item": {
+          "message": "Non credo si apra con le mani ☠️ "
+        },
+        "V": {
           "message": "È la chiave giusta!",
           "transform": " "
         }
@@ -41,7 +117,7 @@
       "color":"purple",
       "interactions":{
       "no-item":{
-          "message": "Evaso il killer più ricercato d'Europa! Scomparso il giudice Bernardi che lo condannò all'ergastolo.",
+          "message": "Non se lo sarebbe mai aspettato. Convinto da decenni che nessuno lo avrebbe più scoperto, Raymond Charles Rowe, famoso dj della Pennsylvania noto come DJ Freez, mandava avanti brillantemente la sua carriera esibendosi davanti a un pubblico ignaro di avere davanti a sé un assassino, l'uomo che quattro giorni prima del Natale 1992 aveva ucciso brutalmente Christy Mirack, un'insegnante di scuola media di 25 anni, strangolandola nella sua casa di Lancaster, in Pennsylvania, dopo averla stuprata. Non poteva sapere che la polizia non aveva mai chiuso quel caso e, sconvolta dalla ferocia di quell'omicidio, se l'era legato al dito senza mai smettere di indagare. Così come non poteva immaginare che a tradirlo sarebbe stata, involontariamente, la sorellastra che, iscrivendosi a un sito genealogico dotato di un imponente database di dna, ha permesso agli investigatori di risalire a lui. Arrestato a giugno scorso, Raymond si è ritrovato schiacciato da prove inconfutabili: martedì, vistosi incastrato, si è dichiarato colpevole per evitare la pena di morte ed è stato finalmente condannato all'ergastolo da te. ........................................................................................................................................................................................................................................................................................................................................... È scomparso il giudice Reynolds che ha condannato all'ergastolo il killer Raymond Charles Rowe ",
           "tranform": " "
       }
     }
@@ -82,7 +158,7 @@
           },
           "M":{
             "message": "Sembra funzionare! Stai spaccando tutto come non mai 🦄 !",
-            "transform": "K",
+            "transform": "V",
             "pickup": true
           }
       }
@@ -107,10 +183,35 @@
             }
         }
     },
+
+    "V": {
+        "name": "chiave",
+        "description": "e' una piccola chiave",
+        "color": "cyan",
+        "interactions": {
+            "no-item": {
+                "message": "la raccogli",
+                "transform": " ",
+                "pickup": true
+            }
+        }
+    },
+    "Q": {
+        "name": "chiave",
+        "description": "e' una grande chiave",
+        "color": "cyan",
+        "interactions": {
+            "no-item": {
+                "message": "la raccogli",
+                "transform": " ",
+                "pickup": true
+            }
+        }
+    },
     "0": {
         "name": "porta",
         "description": "e' una porta",
-        "color": "blue",
+        "color": "magenta",
         "interactions": {
             "no-item": {
                 "message": "si apre",
