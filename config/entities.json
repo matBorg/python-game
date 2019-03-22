@@ -17,10 +17,10 @@
       "color": "cyan",
       "interactions": {
           "no-item": {
-              "message": "Viva la ruspaaaaa!!!",
-              "tranform": " ",
+              "message": "Viva la ruspaaa!!!",
+              "transform": " ",
               "pickup": true
-        }
+          }
       }
   },
     "P": {
@@ -56,7 +56,7 @@
           "no-item": {
               "message": "è un po' duro da rompere con le mani"
           },
-          "M":{
+          "R":{
             "message": "Sembra funzionare! Stai spaccando tutto come non mai 🦄 ",
             "message": "hai ottenuto 2 pezzi di pietra focaia!",
             "transform": " ",
@@ -71,11 +71,10 @@
       "color": "white",
       "interactions": {
           "R": {
-            "message": "Distruggiamo questi tavoli",
-            "tranform": " ",
-            "pickup": false
+              "message": "Distruggiamo questi tavoli",
+              "transform": " "
+          }
       }
-    }
   },
 
 
