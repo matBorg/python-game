@@ -36,7 +36,7 @@
       }
     },
 
-    "S": {
+    "!": {
       "name": "blocco di pietra",
       "description": "può essere distrutto",
       "color": "black",
