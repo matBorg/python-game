@@ -26,7 +26,7 @@
     "M": {
       "name": "martello",
       "description": "martello insanguinato ...",
-      "color": "pink",
+      "color": "red",
       "interactions": {
           "no-item": {
               "message": "hai raccolto il martello",
