@@ -1,4 +1,16 @@
 {
+  "C": {
+    "name": "Candela profumata",
+    "description": "Una candela con un aroma di vaniglia",
+    "color": "yellow",
+    "interactions": {
+        "no-item": {
+          "message": "Fa sempre comodo avere con se una candela profumata",
+          "tranform": " ",
+          "pickup": true
+        }
+    }
+  },
   "N": {
       "name": "Newspaper",
       "description": "giornale",
