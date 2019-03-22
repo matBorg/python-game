@@ -42,7 +42,9 @@ class Bg:
     yellow='\033[43m'
     blue='\033[44m'
     magenta='\033[45m'
+    purple='\033[35m'
     lightgrey='\033[37m'
+    lightcyan='\033[96m'
     cyan='\033[46m'
     white='\033[47m'
 

@@ -1,13 +1,32 @@
 {
+  "N": {
+      "name": "Nespaper",
+      "description": "giornale",
+      "color":"purple",
+      "no-item":{
+          "message": "Evaso il killer più ricercato d'Europa! Scomparso l'avvocato Azzeccagarbugli.",
+          "tranform": " "
+      }
+  },
 
+  "R": {
+    "name": "Ruspa",
+    "description": "La ruspa di Salvini",
+    "color": "lightcyan",
+    "no-item":{
+      "message": "Viva la ruspaaaaa!!!",
+      "tranform": " ",
+      "pickup": true
+    }
+  },
     "P": {
-        "name": "pianta",
+        "name": "Pianta",
         "description": "questa pianta non viene annaffiata da molto tempo",
-        "color": "yellow",
+        "color": "green",
         "interactions": {
             "no-item": {
                 "message": "spostando il vaso noti qualcosa di interessante",
-                "transform": "K"
+                "transform": "R"
             }
         }
     },
@@ -45,7 +64,11 @@
     "◼": {
       "name": "tavolo",
       "description": "dei semplici tavoli usati dai commensali...",
-      "color": "white"
+      "color": "white",
+      "R": {
+        "message": "Distruggiamo questi tavoli",
+        "tranform": " "
+      }
     },
 
 
