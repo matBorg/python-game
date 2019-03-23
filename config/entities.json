@@ -92,7 +92,8 @@
         "message": "Hai fuso la serratura... ora si potrà aprire con la 🔑 K",
         "transform": "X"
       }
-    },
+    }
+  },
   "X": {
     "name": "lucchetto",
     "description": " ",
@@ -175,7 +176,7 @@
        }
     }
   },
-  
+
   "N": {
       "name": "Newspaper",
       "description": "giornale",
@@ -389,7 +390,7 @@
             "no-item": {
                 "message": "si apre",
                 "move_to_room": 7
-        }
+            }
        }
     }
 }
