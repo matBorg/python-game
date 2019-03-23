@@ -91,7 +91,7 @@
       "H": {
         "message":"bravoovovovog",
         "transform": " ",
-        "game_over": "Scatta l'allarme, arriva l'assino e ti uccide"
+        "game_over": "Scatta l'allarme, arriva un uomino e ti uccide"
       }
     }
    },
@@ -279,7 +279,13 @@
   "O": {
     "name": "tavolo",
     "description": "dei semplici tavoli usati dai commensali...",
-    "color": "white"
+    "color": "white",
+    "interactions":{
+      "H": {
+        "message": "wowoowowoow",
+        "transform": " "
+      }
+    }
   },
   "K": {
       "name": "chiave",
