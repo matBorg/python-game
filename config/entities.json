@@ -74,12 +74,7 @@
   "$":{
     "name": "Quadro",
     "description": "un quadro di Monet",
-    "color": "pink",
-    "interactions": {
-      "no-item": {
-        "message": "Spostando il quadro ti accorgi che c'è un ⚒ !",
-        "transform": "H"
-      }
+    "color": "pink"  
     }
   },
   "Z":{
