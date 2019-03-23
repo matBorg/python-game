@@ -10,6 +10,10 @@
         "C":{
           "message": "Hai visto che avere una 🕯 accesa è sempre utile!",
           "transform": "L"
+        },
+        "*":{
+          "message": "Diciamo che ... i fiammiferi sono utili ecco ... ",
+          "transform": "L"
         }
     }
   },
@@ -89,11 +93,11 @@
       "U": {
         "message": "Sei fortunato! La porta si apre con successo!",
         "transform": " "
+      },
+      "L": {
+        "message": "Hai fuso la serratura... ora si potrà aprire con la 🔑 K",
+        "transform": "X"
       }
-    },
-    "L": {
-      "message": "Hai fuso la serratura... ora si potrà aprire con la 🔑 K",
-      "transform": "X"
     }
   },
   "X": {
