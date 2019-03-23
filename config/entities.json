@@ -217,7 +217,7 @@
   },
   "^": {
     "name": "Tapparella",
-    "description":"",
+    "description":" ",
     "color": "cyan",
     "interactions": {
       "no-item": {
@@ -388,6 +388,7 @@
             "no-item": {
                 "message": "si apre",
                 "move_to_room": 7
-            }
         }
-    },
+       }
+    }
+}
