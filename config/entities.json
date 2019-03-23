@@ -125,10 +125,6 @@
         "K": {
           "message": "È la chiave giusta!",
           "transform": " "
-        },
-        "H": {
-          "message": "Non farti problemi ehh! Spacca pure con il martello ⚒ ",
-          "transform": " "
         }
     }
   },
@@ -152,8 +148,8 @@
           "transform": " ",
           "pickup": true
         },
-        "*":{
-          "message": "Ora hai una 🕯 accesa! Potrà esserti utile 😃 ",
+        "*": {
+          "message": "Hai acceso la 🕯 !",
           "transform": "C"
         }
     }
@@ -163,21 +159,23 @@
     "description": "una candela con un aroma di vaniglia accesa",
     "color": "yellow",
     "interactions": {
-        "*": {
-          "message": "Fa sempre comodo avere con se una candela accesa",
-          "transform": " ",
-          "pickup": true
-        }
+      "no-item":{
+        "message": "Hai ottenuto una 🕯 accesa!",
+        "transform": " ",
+        "pickup": true
+      }
     }
   },
   "*": {
-    "name": "Fornelli",
+    "name": "Fiammiferi",
     "description":"",
     "color": "black",
     "interactions":{
-        "C": {
-          "message": "Hai acceso la candela"
-        }
+       "no-item": {
+         "message": "Attento a non bruciare la casa però!!",
+         "transform": " ",
+         "pickup": true
+       }
     }
   },
   "N": {
