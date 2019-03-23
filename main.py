@@ -21,7 +21,7 @@ class Fg:
     green='\033[32m'
     orange='\033[33m'
     blue='\033[34m'
-    purple='\033[35m'
+    purple='\033[35m'           
     cyan='\033[36m'
     lightgrey='\033[37m'
     darkgrey='\033[90m'
@@ -243,7 +243,7 @@ class Game:
             self.player.move(Directions.W)
         elif action == "D":
             self.player.move(Directions.E)
-        elif action == "QUIT":
+        elif action == "QUIT" or action == "Q!":
             quit()
         else:
             item = None

@@ -51,5 +51,10 @@
         "name": "Soffitta",
         "description": "",
         "color": "white"
+    },
+    "9":{
+      "name": "Strada",
+      "description": "sei fuggito dalla casa... trova una macchina e vattene!",
+      "color": "lightgrey"
     }
 }

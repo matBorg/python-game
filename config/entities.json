@@ -1,10 +1,30 @@
 {
-"E": {
-    "name": "Uscita",
-    "description": "unica via per l'uscita! Servono 3 chiavi per aprire la porta",
-    "color": "blue"
-},
+  "&":{
+    "name": "Molletta",
+    "description": "molletta per capelli",
+    "color": "orange",
+    "interactions": {
+      "no-item": {
+        "message": "Una molletta per capelli può sempre essere utile...",
+        "transform": " ",
+        "pickup": true
+      }
+    }
+  },
 
+  "M":{
+    "name": "Macchina",
+    "description": "la tua macchina",
+    "color": "black",
+    "interactions": {
+      "no-item": {
+        "message": "Sai... ti servono le chiavi"
+      },
+      "&":{
+        "message": "Grazie a questa molletta hai fatto partire la macchina ... è ora di fuggire!"
+      }
+    }
+  },
   "@":{
     "name": "Quadro",
     "description": "un quadro di Van Gogh",
@@ -26,12 +46,15 @@
       }
     }
   },
-  "|":{
+  "$":{
     "name": "Quadro",
     "description": "un quadro di Monet",
     "color": "pink",
-    "no-item": {
-      "transform": "M"
+    "interactions": {
+      "no-item": {
+        "message": "Spostando il quadro ti accorgi che c'è un ⚒ !",
+        "transform": "M"
+      }
     }
   },
   "Z":{
@@ -82,7 +105,7 @@
     }
   },
   "?": {
-    "name": "lucchetto",
+    "name": "ultimo lucchetto",
     "description": "",
     "color": "black",
     "interactions": {
@@ -161,7 +184,7 @@
         }
     },
 
-    "M": {
+    "H": {
       "name": "martello",
       "description": "martello insanguinato ...",
       "color": "red",
@@ -190,7 +213,7 @@
       }
     },
 
-    "H": {
+    "O": {
       "name": "tavolo",
       "description": "dei semplici tavoli usati dai commensali...",
       "color": "white"
@@ -242,6 +265,18 @@
             "no-item": {
                 "message": "si apre",
                 "move_to_room": 0
+            }
+        }
+    },
+
+    "E": {
+        "name": "porta",
+        "description": "è la porta per l'uscita...",
+        "color": "blue",
+        "interactions": {
+            "no-item": {
+                "message": "si è aperta",
+                "move_to_room": 9
             }
         }
     },
