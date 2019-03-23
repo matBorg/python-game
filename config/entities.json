@@ -62,7 +62,7 @@
     "interactions": {
       "no-item": {
         "message": "Dietro quel quadro c'è qualcosa !!!",
-        "transform": "K"
+        "transform": "H"
       }
     }
   },
