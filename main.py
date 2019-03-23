@@ -1,4 +1,5 @@
-
+from pydub import AudioSegment
+from pydub.playback import play
 import json
 from os import system
 from random import choice
@@ -21,7 +22,7 @@ class Fg:
     green='\033[32m'
     orange='\033[33m'
     blue='\033[34m'
-    purple='\033[35m'           
+    purple='\033[35m'
     cyan='\033[36m'
     lightgrey='\033[37m'
     darkgrey='\033[90m'
@@ -111,6 +112,9 @@ class Entity:
                 if "win" in action:
                     self.game.win(action["win"])
 
+                if "audio" in action:
+                    song = AudioSegment.from_wav("banana.wav")
+                    play(song)
                 return
 
         print(choice(WRONG_INTERACTION_RESPONSES))

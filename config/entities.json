@@ -91,7 +91,8 @@
       "H": {
         "message":"bravoovovovog",
         "transform": " ",
-        "game_over": "Siniora scie un uomo per lei!"
+        "audio": "",
+        "game_over": "Arriva un uomo che ti uccide!!"
       }
     }
    },
