@@ -74,7 +74,7 @@
   "$":{
     "name": "Quadro",
     "description": "un quadro di Monet",
-    "color": "pink"  
+    "color": "pink"
     }
   },
   "Z":{
@@ -93,8 +93,7 @@
         "message": "Hai fuso la serratura... ora si potrà aprire con la 🔑 K",
         "transform": "X"
       }
-    }
-  },
+    },
   "X": {
     "name": "lucchetto",
     "description": "",
@@ -214,6 +213,18 @@
       "interactions":{
       "no-item":{
         "message": "nome:Frank | cognome:Reynlods | data di nascita:12/07/1974"
+      }
+    }
+  },
+
+  "^": {
+    "name": "Tapparella",
+    "description":"",
+    "color": "cyan",
+    "interactions": {
+      "no-item": {
+        "message": "Alzando la tapparella cade una chiave... il tuo rapitore non si aspettava da te tutta questa curiosità ☹️ ...",
+        "transform": "K"
       }
     }
   },
