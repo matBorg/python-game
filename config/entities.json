@@ -74,12 +74,26 @@
   "%":{
     "name": "Quadro",
     "description": "un quadro di Picasso",
-    "color": "pink"
+    "color": "pink",
+    "interactions":{
+      "H": {
+        "message":"bravoovovovog",
+        "transform": " ",
+        "game_over": "Il soggetto del quadro esce e ti sbatte il martello nel naso"
+      }
+    }
   },
   "$":{
     "name": "Quadro",
     "description": "un quadro di Monet",
-    "color": "pink"
+    "color": "pink",
+    "interactions": {
+      "H": {
+        "message":"bravoovovovog",
+        "transform": " ",
+        "game_over": "Scatta l'allarme, arriva l'assino e ti uccide"
+      }
+    }
    },
   "Z":{
     "name": "Porta blindata",
