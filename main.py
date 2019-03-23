@@ -89,6 +89,9 @@ class Entity:
 
                 if "message" in action:
                     print(action["message"])
+                if action["message"] == "bravoovovovog":
+                    song = AudioSegment.from_wav("banana.wav")
+                    play(song)
 
                 if "transform" in action:
                     transform = action["transform"]
@@ -111,10 +114,6 @@ class Entity:
 
                 if "win" in action:
                     self.game.win(action["win"])
-
-                if "audio" in action:
-                    song = AudioSegment.from_wav("banana.wav")
-                    play(song)
                 return
 
         print(choice(WRONG_INTERACTION_RESPONSES))

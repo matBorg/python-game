@@ -77,7 +77,7 @@
     "color": "pink",
     "interactions":{
       "H": {
-        "message":"bravoovovovog",
+        "message":"bravoov",
         "transform": " ",
         "game_over": "Il soggetto del quadro esce e ti sbatte il martello nel naso"
       }
