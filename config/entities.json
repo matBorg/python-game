@@ -14,6 +14,10 @@
         "*":{
           "message": "Diciamo che ... i fiammiferi sono utili ecco ... ",
           "transform": "L"
+        },
+        "H": {
+          "message": "Hai spaccato la bomboletta ... bravoooooooooo daun gnnnn gnnnn gnuen 👉🏼👈🏼 ",
+          "transform": " "
         }
     }
   },
@@ -271,6 +275,10 @@
               "message": "la raccogli",
               "transform": " ",
               "pickup": true
+          },
+          "H": {
+            "message": "Hai spaccato la 🔑... bravoooooooooo daun gnnnn gnnnn gnuen 👉🏼👈🏼 ",
+            "transform": " "
           }
       }
   },
