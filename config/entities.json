@@ -95,7 +95,7 @@
     },
   "X": {
     "name": "lucchetto",
-    "description": "",
+    "description": " ",
     "color": "black",
     "interactions": {
         "no-item": {
@@ -113,7 +113,7 @@
   },
   "/": {
     "name": "lucchetto",
-    "description": "",
+    "description": " ",
     "color": "black",
     "interactions": {
         "no-item": {
@@ -127,7 +127,7 @@
   },
   "?": {
     "name": "ultimo lucchetto",
-    "description": "",
+    "description": " ",
     "color": "black",
     "interactions": {
         "no-item": {
