@@ -7,7 +7,7 @@
 
   "@":{
     "name": "Quadro",
-    "description": "",
+    "description": "un quadro di Van Gogh",
     "color": "pink",
     "interactions": {
       "no-item": {
@@ -18,19 +18,21 @@
   },
   "%":{
     "name": "Quadro",
-    "description": "",
+    "description": "un quadro di Picasso",
     "color": "pink",
     "interactions": {
       "no-item": {
-        "message": "Dietro quel quadro c'è qualcosa !!!",
-        "transform": "K"
+        "message": "Cosa pensi di fare ?!?"
       }
     }
   },
   "|":{
     "name": "Quadro",
-    "description": "",
-    "color": "pink"
+    "description": "un quadro di Monet",
+    "color": "pink",
+    "no-item": {
+      "transform": "M"
+    }
   },
   "Z":{
     "name": "Porta blindata",
@@ -56,7 +58,11 @@
           "message": "Non credo si apra con le mani ☠️ "
         },
         "K": {
-          "message": "È la chiave giusta!",
+          "message": "È la 🔑 giusta!",
+          "transform": " "
+        },
+        "M": {
+          "message": "Non farti problemi ehh! Spacca pure con il martello ⚒ ",
           "transform": " "
         }
     }
@@ -101,7 +107,19 @@
         }
     }
   },
-  "U": {
+  "c": {
+    "name": "Candela accesa",
+    "description": "una candela con un aroma di vaniglia accesa",
+    "color": "yellow",
+    "interactions": {
+        "*": {
+          "message": "Fa sempre comodo avere con se una candela accesa",
+          "transform": " ",
+          "pickup": true
+        }
+    }
+  },
+  "*": {
     "name": "Fornelli",
     "description":"",
     "color": "black",
@@ -117,8 +135,16 @@
       "color":"purple",
       "interactions":{
       "no-item":{
-          "message": "Non se lo sarebbe mai aspettato. Convinto da decenni che nessuno lo avrebbe più scoperto, Raymond Charles Rowe, famoso dj della Pennsylvania noto come DJ Freez, mandava avanti brillantemente la sua carriera esibendosi davanti a un pubblico ignaro di avere davanti a sé un assassino, l'uomo che quattro giorni prima del Natale 1992 aveva ucciso brutalmente Christy Mirack, un'insegnante di scuola media di 25 anni, strangolandola nella sua casa di Lancaster, in Pennsylvania, dopo averla stuprata. Non poteva sapere che la polizia non aveva mai chiuso quel caso e, sconvolta dalla ferocia di quell'omicidio, se l'era legato al dito senza mai smettere di indagare. Così come non poteva immaginare che a tradirlo sarebbe stata, involontariamente, la sorellastra che, iscrivendosi a un sito genealogico dotato di un imponente database di dna, ha permesso agli investigatori di risalire a lui. Arrestato a giugno scorso, Raymond si è ritrovato schiacciato da prove inconfutabili: martedì, vistosi incastrato, si è dichiarato colpevole per evitare la pena di morte ed è stato finalmente condannato all'ergastolo da te. ........................................................................................................................................................................................................................................................................................................................................... È scomparso il giudice Reynolds che ha condannato all'ergastolo il killer Raymond Charles Rowe ",
-          "tranform": " "
+          "message": "Non se lo sarebbe mai aspettato. Convinto da decenni che nessuno lo avrebbe più scoperto, Raymond Charles Rowe, famoso dj della Pennsylvania noto come DJ Freez, mandava avanti brillantemente la sua carriera esibendosi davanti a un pubblico ignaro di avere davanti a sé un assassino, l'uomo che quattro giorni prima del Natale 1992 aveva ucciso brutalmente Christy Mirack, un'insegnante di scuola media di 25 anni, strangolandola nella sua casa di Lancaster, in Pennsylvania, dopo averla stu****a."
+      }
+    }
+  },
+  "n": {
+      "name": "Newspaper",
+      "description": "giornale",
+      "interactions":{
+      "no-item":{
+          "message": "Non poteva sapere che la polizia non aveva mai chiuso quel caso e, sconvolta dalla ferocia di quell'omicidio, se l'era legato al dito senza mai smettere di indagare. Così come non poteva immaginare che a tradirlo sarebbe stata, involontariamente, la sorellastra che, iscrivendosi a un sito genealogico dotato di un imponente database di dna, ha permesso agli investigatori di risalire a lui."
       }
     }
   },
