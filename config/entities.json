@@ -277,8 +277,10 @@
               "pickup": true
           },
           "H": {
-            "message": "Hai spaccato la 🔑... bravoooooooooo daun gnnnn gnnnn gnuen 👉🏼👈🏼 ",
-            "transform": " "
+            "message":"bravoooooooooo",
+            "transform": " ",
+            "game_over": "Hai spaccato la 🔑... bravoooooooooo daun gnnnn gnnnn gnuen 👉🏼👈🏼 ",
+
           }
       }
   },
