@@ -166,12 +166,33 @@
       }
     }
   },
-  "n": {
+  "J": {
       "name": "Newspaper",
       "description": "giornale",
+      "color":"purple",
       "interactions":{
       "no-item":{
           "message": "Non poteva sapere che la polizia non aveva mai chiuso quel caso e, sconvolta dalla ferocia di quell'omicidio, se l'era legato al dito senza mai smettere di indagare. Così come non poteva immaginare che a tradirlo sarebbe stata, involontariamente, la sorellastra che, iscrivendosi a un sito genealogico dotato di un imponente database di dna, ha permesso agli investigatori di risalire a lui."
+      }
+    }
+  },
+  "=": {
+      "name": "Newspaper",
+      "description": "giornale",
+      "color":"purple",
+      "interactions":{
+      "no-item":{
+        "message": "Scomparso il giudice Reynlods che condannò all'ergastolo il killer DJ!"
+      }
+    }
+  },
+  "+": {
+      "name": "Carta d'identità",
+      "description": "la tua carta d'identità",
+      "color":"yellow",
+      "interactions":{
+      "no-item":{
+        "message": "nome:Frank | cognome:Reynlods | data di nascita:12/07/1974"
       }
     }
   },
@@ -368,16 +389,4 @@
             }
         }
     },
-
-    "8": {
-        "name": "porta",
-        "description": "e' una porta",
-        "color": "blue",
-        "interactions": {
-            "no-item": {
-                "message": "si apre",
-                "move_to_room": 8
-            }
-        }
-    }
 }
