@@ -1,4 +1,27 @@
 {
+  "Y":{
+    "name": "Bomboletta spray",
+    "description": "una bomboletta spray di deodorante, dei pazzi la usano come lanciafiamme 🙀 ...",
+    "color": "yellow",
+    "interactions": {
+        "C":{
+          "message": "Hai visto che avere una 🕯 accesa è sempre utile!",
+          "transform": "L"
+        }
+    }
+  },
+  "L":{
+    "name": "Lanciafiamme",
+    "description": "un lanciafiamme fatto con una candela e una bomboletta spray",
+    "color": "green",
+    "interactions":{
+        "no-item": {
+          "message": "Ora hai un lanciafiamme 🔥 simile a quello di Elon Musk! 😃 ",
+          "transform": " ",
+          "pickup": true
+        }
+    }
+  },
   "&":{
     "name": "Molletta",
     "description": "molletta per capelli",
@@ -39,12 +62,7 @@
   "%":{
     "name": "Quadro",
     "description": "un quadro di Picasso",
-    "color": "pink",
-    "interactions": {
-      "no-item": {
-        "message": "Cosa pensi di fare ?!?"
-      }
-    }
+    "color": "pink"
   },
   "$":{
     "name": "Quadro",
@@ -69,8 +87,11 @@
         "message": "Sei fortunato! La porta si apre con successo!",
         "transform": " "
       }
+    },
+    "L": {
+      "message": "Hai fuso la serratura... ora si potrà aprire con la 🔑 K",
+      "transform": "X"
     }
-
   },
   "X": {
     "name": "lucchetto",
@@ -98,7 +119,7 @@
         "no-item": {
           "message": "Non credo si apra con le mani ☠️ "
         },
-        "V": {
+        "K": {
           "message": "È la chiave giusta!",
           "transform": " "
         },
@@ -230,9 +251,9 @@
           "no-item": {
               "message": "è un po' duro da rompere con le mani"
           },
-          "M":{
+          "H":{
             "message": "Sembra funzionare! Stai spaccando tutto come non mai 🦄 !",
-            "transform": "V",
+            "transform": "Y",
             "pickup": true
           }
       }
@@ -246,19 +267,6 @@
 
 
     "K": {
-        "name": "chiave",
-        "description": "e' una piccola chiave",
-        "color": "cyan",
-        "interactions": {
-            "no-item": {
-                "message": "la raccogli",
-                "transform": " ",
-                "pickup": true
-            }
-        }
-    },
-
-    "V": {
         "name": "chiave",
         "description": "e' una piccola chiave",
         "color": "cyan",
