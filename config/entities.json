@@ -1,4 +1,14 @@
 {
+  "T": {
+    "name": "Topolino",
+    "description": "ciao sono il tuo amico Topolino!!",
+    "color": "rs",
+    "interactions": {
+      "no-item": {
+        "message": "Se non mi dai qualcosa in cambio non avrai niente"
+      }
+    }
+  },
   "Y":{
     "name": "Bomboletta spray",
     "description": "una bomboletta spray di deodorante, dei pazzi la usano come lanciafiamme 🙀 ...",
@@ -80,6 +90,22 @@
         "message":"bravoov",
         "transform": " ",
         "game_over": "Il soggetto del quadro esce e ti sbatte il martello nel naso"
+      }
+    }
+  },
+  ">":{
+    "name": "Quadro",
+    "description": "un quadro di Caravaggio",
+    "color": "pink",
+    "interactions":{
+      "H": {
+        "message":"bravoov",
+        "transform": " ",
+        "game_over": "Il soggetto del quadro esce e ti sbatte il martello nel naso"
+      },
+      "L": {
+        "message": "Hai sciolto il quadro!",
+        "transform": "T"
       }
     }
   },
