@@ -92,6 +92,9 @@ class Entity:
                 if action["message"] == "bravoovovovog":
                     song = AudioSegment.from_wav("banana.wav")
                     play(song)
+                elif action["message"] == "si apre" or action["message"] == "si è aperta":
+                    door = AudioSegment.from_wav("door.wav")
+                    play(door)
 
                 if "transform" in action:
                     transform = action["transform"]

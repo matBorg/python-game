@@ -193,6 +193,10 @@
          "message": "Attento a non bruciare la casa però!!",
          "transform": " ",
          "pickup": true
+       },
+       "V": {
+         "message": "Hai acceso la 🕯 ",
+         "transform": "C"
        }
     }
   },
