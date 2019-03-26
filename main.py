@@ -10,6 +10,7 @@ portaa = pygame.mixer.Sound("./door.wav")
 hammero = pygame.mixer.Sound("./hammer.wav")
 newspapera = pygame.mixer.Sound("./newspaper.wav")
 lanciafiiiamme = pygame.mixer.Sound("./flame.wav")
+topolinello = pygame.mixer.Sound("./topolino.wav")
 
 WRONG_INTERACTION_RESPONSES = [
     "non succede nulla",
@@ -109,6 +110,9 @@ class Entity:
 
                 elif action["message"] == "Hai fuso la serratura... ora si potrà aprire con la 🔑 K" or action["message"] == "Hai sciolto il quadro!":
                     hammero.play()
+
+                elif action["message"] == "Ciao, sono Topolino! Per ottenere la chiave devi darmi il tuo lanciafiamme... sei pericoloso 🧐 ":
+                    topolinello.play()
 
                 if "transform" in action:
                     transform = action["transform"]

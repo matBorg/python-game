@@ -1,11 +1,27 @@
 {
+  "'": {
+      "name": "chiave",
+      "description": "è la chiave finale!",
+      "color": "cyan",
+      "interactions": {
+          "no-item": {
+              "message": "la raccogli",
+              "transform": " ",
+              "pickup": true
+            }
+          }
+        },
   "T": {
     "name": "Topolino",
-    "description": "ciao sono il tuo amico Topolino!!",
+    "description": "sono il tuo amico Topolino!!",
     "color": "rs",
     "interactions": {
       "no-item": {
-        "message": "Se non mi dai qualcosa in cambio non avrai niente"
+        "message": "Ciao, sono Topolino! Per ottenere la chiave devi darmi il tuo lanciafiamme... sei pericoloso 🧐 "
+      },
+      "L":{
+        "message": "Grazie!",
+        "transform": "'"
       }
     }
   },
@@ -179,6 +195,9 @@
     "interactions": {
         "no-item": {
           "message": "Non credo si apra con le mani ☠️ "
+        },
+        "'":{
+          "message": "Complimenti! Sei riuscito ad aprire il lucchetto"
         }
     }
   },
