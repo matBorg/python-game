@@ -1,9 +1,12 @@
-from pydub import AudioSegment
-from pydub.playback import play
+import pygame
+pygame.init()
 import json
 from os import system
 from random import choice
 import sys
+
+senioraaa = pygame.mixer.Sound("./banana.wav")
+portaa = pygame.mixer.Sound("./door.wav")
 
 WRONG_INTERACTION_RESPONSES = [
     "non succede nulla",
@@ -90,11 +93,12 @@ class Entity:
                 if "message" in action:
                     print(action["message"])
                 if action["message"] == "bravoovovovog":
-                    song = AudioSegment.from_wav("banana.wav")
-                    play(song)
-                elif action["message"] == "si apre" or action["message"] == "si è aperta":
-                    door = AudioSegment.from_wav("door.wav")
-                    play(door)
+                    senioraaa.play()
+                #    song = AudioSegment.from_wav("banana.wav")
+                #    play(song)
+                #elif action["message"] == "si apre" or action["message"] == "si è aperta":
+                #    door = AudioSegment.from_wav("door.wav")
+                #    play(door)
 
                 if "transform" in action:
                     transform = action["transform"]
