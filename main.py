@@ -5,6 +5,7 @@ from os import system
 from random import choice
 import sys
 
+damn = pygame.mixer.Sound("./damn.wav")
 senioraaa = pygame.mixer.Sound("./banana.wav")
 portaa = pygame.mixer.Sound("./door.wav")
 hammero = pygame.mixer.Sound("./hammer.wav")
@@ -107,7 +108,7 @@ class Entity:
                 elif action["message"] == "Non farti problemi ehh! Spacca pure con il martello ⚒ " or action["message"] == "Sembra funzionare! Stai spaccando tutto come non mai 🦄 !":
                     hammero.play()
 
-                elif action["message"] == "Non se lo sarebbe mai aspettato. Convinto da decenni che nessuno lo avrebbe più scoperto, Raymond Charles Rowe, famoso dj della Pennsylvania noto come DJ Freez, mandava avanti brillantemente la sua carriera esibendosi davanti a un pubblico ignaro di avere davanti a sé un assassino, l'uomo che quattro giorni prima del Natale 1992 aveva ucciso brutalmente Christy Mirack, un'insegnante di scuola media di 25 anni, strangolandola nella sua casa di Lancaster, in Pennsylvania, dopo averla stu****a." or action["message"] == "Non poteva sapere che la polizia non aveva mai chiuso quel caso e, sconvolta dalla ferocia di quell'omicidio, se l'era legato al dito senza mai smettere di indagare. Così come non poteva immaginare che a tradirlo sarebbe stata, involontariamente, la sorellastra che, iscrivendosi a un sito genealogico dotato di un imponente database di dna, ha permesso agli investigatori di risalire a lui.":
+                elif action["message"] == "Non se lo sarebbe mai aspettato. Convinto da decenni che nessuno lo avrebbe più scoperto, Raymond Charles Rowe, famoso dj della Pennsylvania noto come DJ Freez, mandava avanti brillantemente la sua carriera esibendosi davanti a un pubblico ignaro di avere davanti a sé un assassino, l'uomo che quattro giorni prima del Natale 1992 aveva ucciso brutalmente Christy Mirack, un'insegnante di scuola media di 25 anni, strangolandola nella sua casa di Lancaster, in Pennsylvania, dopo averla stu****a." or action["message"] == "Non poteva sapere che la polizia non aveva mai chiuso quel caso e, sconvolta dalla ferocia di quell'omicidio, se l'era legato al dito senza mai smettere di indagare. Così come non poteva immaginare che a tradirlo sarebbe stata, involontariamente, la sorellastra che, iscrivendosi a un sito genealogico dotato di un imponente database di dna, ha permesso agli investigatori di risalire a lui." or action["message"] == "Scomparso il giudice Reynlods che condannò all'ergastolo il killer DJ!":
                     newspapera.play()
 
                 elif action["message"] == "Hai fuso la serratura... ora si potrà aprire con la 🔑 K" or action["message"] == "Hai sciolto il quadro!":
@@ -121,6 +122,9 @@ class Entity:
 
                 elif action["message"] == "È la 🔑 giusta!":
                     lucchetto.play()
+
+                elif action["message"] == "Ora hai un lanciafiamme 🔥 simile a quello di Elon Musk! 😃 ":
+                    damn.play()
 
                 if "transform" in action:
                     transform = action["transform"]
