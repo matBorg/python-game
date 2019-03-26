@@ -387,7 +387,7 @@
         "interactions": {
             "no-item": {
                 "message": "si è aperta",
-                "move_to_room": 9
+                "move_to_room": 8
             }
         }
     },
