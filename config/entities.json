@@ -1,4 +1,22 @@
 {
+  "B": {
+    "name": "Chiavi",
+    "description": "delle chiavi di una Mercedes",
+    "color": "purple",
+    "interactions":{
+      "no-item": {
+        "message": "Potrebbero tornarti utili!",
+        "transform": " ",
+        "pickup": true
+      },
+      "H": {
+        "message":"bravoooooooooo",
+        "transform": " ",
+        "game_over": "Hai spaccato la 🔑... bravoooooooooo gnnnn gnnnn gnuen 👉🏼👈🏼 "
+
+      }
+    }
+  },
   "'": {
       "name": "chiave",
       "description": "è la chiave finale!",
@@ -82,8 +100,13 @@
         "message": "Sai... ti servono le chiavi"
       },
       "&":{
-        "message": "Grazie a questa molletta hai fatto partire la macchina ... è ora di fuggire!"
+        "message": "Grazie a questa molletta hai fatto partire la macchina ... è ora di fuggire!",
+        "win": "Sei fuggito da quel mostro!"
       }
+    },
+    "B":{
+      "message": "Grazie alle chiavi hai fatto partire la macchina ... è ora di fuggire!",
+      "win": "Sei fuggito da quel mostro!"
     }
   },
   "@":{
