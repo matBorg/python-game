@@ -197,7 +197,8 @@
           "message": "Non credo si apra con le mani ☠️ "
         },
         "'":{
-          "message": "Complimenti! Sei riuscito ad aprire il lucchetto"
+          "message": "Complimenti! Sei riuscito ad aprire il lucchetto",
+          "transform": " "
         }
     }
   },
