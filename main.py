@@ -115,10 +115,13 @@ class Entity:
 
                 elif action["message"] == "Ciao, sono Topolino! Per ottenere la chiave devi darmi il tuo lanciafiamme... sei pericoloso 🧐 ":
                     topolinello.play()
+
                 elif action["message"] == "Hai acceso la 🕯 !":
                     fiammiferino.play()
+
                 elif action["message"] == "È la 🔑 giusta!":
                     lucchetto.play()
+
                 if "transform" in action:
                     transform = action["transform"]
                     if transform == " ":
@@ -284,7 +287,7 @@ class Game:
             for entity in nearby_entities:
                 if action == entity.graphic:
                     entity.interact(item)
-                    #input("premi un tasto per continuare...")
+                    input("premi un tasto per continuare...")
                     break
 
 
