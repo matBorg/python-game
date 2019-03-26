@@ -104,7 +104,7 @@ class Entity:
                 elif action["message"] == "si apre" or action["message"] == "si è aperta":
                     portaa.play()
 
-                elif action["message"] == "Non farti problemi ehh! Spacca pure con il martello ⚒ ":
+                elif action["message"] == "Non farti problemi ehh! Spacca pure con il martello ⚒ " or action["message"] == "Sembra funzionare! Stai spaccando tutto come non mai 🦄 !":
                     hammero.play()
 
                 elif action["message"] == "Non se lo sarebbe mai aspettato. Convinto da decenni che nessuno lo avrebbe più scoperto, Raymond Charles Rowe, famoso dj della Pennsylvania noto come DJ Freez, mandava avanti brillantemente la sua carriera esibendosi davanti a un pubblico ignaro di avere davanti a sé un assassino, l'uomo che quattro giorni prima del Natale 1992 aveva ucciso brutalmente Christy Mirack, un'insegnante di scuola media di 25 anni, strangolandola nella sua casa di Lancaster, in Pennsylvania, dopo averla stu****a." or action["message"] == "Non poteva sapere che la polizia non aveva mai chiuso quel caso e, sconvolta dalla ferocia di quell'omicidio, se l'era legato al dito senza mai smettere di indagare. Così come non poteva immaginare che a tradirlo sarebbe stata, involontariamente, la sorellastra che, iscrivendosi a un sito genealogico dotato di un imponente database di dna, ha permesso agli investigatori di risalire a lui.":
