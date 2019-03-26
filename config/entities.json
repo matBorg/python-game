@@ -107,7 +107,9 @@
       "message": "Grazie alle chiavi hai fatto partire la macchina ... è ora di fuggire!",
       "win": "Sei fuggito da quel mostro!"
     }
-  },
+  }
+ },
+
   "@":{
     "name": "Quadro",
     "description": "un quadro di Van Gogh",
