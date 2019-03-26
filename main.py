@@ -112,7 +112,7 @@ class Entity:
                     newspapera.play()
 
                 elif action["message"] == "Hai fuso la serratura... ora si potrà aprire con la 🔑 K" or action["message"] == "Hai sciolto il quadro!":
-                    hammero.play()
+                    lanciafiiiamme.play()
 
                 elif action["message"] == "Ciao, sono Topolino! Per ottenere la chiave devi darmi il tuo lanciafiamme... sei pericoloso 🧐 ":
                     topolinello.play()
