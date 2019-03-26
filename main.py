@@ -4,6 +4,8 @@ import json
 from os import system
 from random import choice
 import sys
+import time
+
 
 lambo = pygame.mixer.Sound("./lambo.wav")
 damn = pygame.mixer.Sound("./damn.wav")
