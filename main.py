@@ -7,6 +7,7 @@ import sys
 
 senioraaa = pygame.mixer.Sound("./banana.wav")
 portaa = pygame.mixer.Sound("./door.wav")
+hammero = pygame.mixer.Sound("./hammer.wav")
 
 WRONG_INTERACTION_RESPONSES = [
     "non succede nulla",
@@ -96,9 +97,12 @@ class Entity:
                     senioraaa.play()
                 #    song = AudioSegment.from_wav("banana.wav")
                 #    play(song)
-                #elif action["message"] == "si apre" or action["message"] == "si è aperta":
-                #    door = AudioSegment.from_wav("door.wav")
+                elif action["message"] == "si apre" or action["message"] == "si è aperta":
+                    portaa.play()
                 #    play(door)
+
+                elif action["message"] == "Non farti problemi ehh! Spacca pure con il martello ⚒ ":
+                    hammero.play()
 
                 if "transform" in action:
                     transform = action["transform"]
