@@ -102,8 +102,7 @@
       "&":{
         "message": "Grazie a questa molletta hai fatto partire la macchina ... è ora di fuggire!",
         "win": "Sei fuggito da quel mostro!"
-      }
-    },
+      },
     "B":{
       "message": "Grazie alle chiavi hai fatto partire la macchina ... è ora di fuggire!",
       "win": "Sei fuggito da quel mostro!"
