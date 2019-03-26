@@ -279,7 +279,7 @@ class Game:
             for entity in nearby_entities:
                 if action == entity.graphic:
                     entity.interact(item)
-                    input("premi un tasto per continuare...")
+                    #input("premi un tasto per continuare...")
                     break
 
 
