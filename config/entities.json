@@ -75,6 +75,10 @@
           "message": "Ora hai un lanciafiamme 🔥 simile a quello di Elon Musk! 😃 ",
           "transform": " ",
           "pickup": true
+        },
+        "T":{
+          "message": "Grazie",
+          "transform": " "
         }
     }
   },

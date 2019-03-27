@@ -8,7 +8,6 @@ import time
 
 
 lambo = pygame.mixer.Sound("./lambo.wav")
-damn = pygame.mixer.Sound("./damn.wav")
 senioraaa = pygame.mixer.Sound("./banana.wav")
 portaa = pygame.mixer.Sound("./door.wav")
 hammero = pygame.mixer.Sound("./hammer.wav")
@@ -125,9 +124,6 @@ class Entity:
 
                 elif action["message"] == "È la 🔑 giusta!":
                     lucchetto.play()
-
-                elif action["message"] == "Ora hai un lanciafiamme 🔥 simile a quello di Elon Musk! 😃 ":
-                    damn.play()
 
                 elif action["message"] == "Grazie a questa molletta hai fatto partire la macchina ... è ora di fuggire!" or action["message"] == "Grazie alle chiavi hai fatto partire la macchina ... è ora di fuggire!":
                     lambo.play()
