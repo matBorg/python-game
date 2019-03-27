@@ -1,5 +1,3 @@
-import pygame
-pygame.init()
 import json
 from os import system
 from random import choice
